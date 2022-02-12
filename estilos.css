@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive
+}
+
+#body{
+    background-color: aquamarine;
+}
+.h1{
+    
+        background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: honeydew;
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+}
+.nav :hover{
+    
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: honeydew;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+.h2{
+    
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    font-size: 40px;
+    padding-left: 20px;
+    color: honeydew;
+    
+    }
+    .video{
+        grid-area: video;
+        justify-content: center;
+     align-items: center;
+     font-size: 20px;
+     color: darkviolet;
+    }
+    .border{
+        border: solid black 5px;
+    }
+    footer{
+        
+        background-color: #0cbaba;
+        background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+        color: honeydew;
+        padding: 20px;
+        padding-left: 30px;
+        font-size: 25px;
+        margin: 20px;
+    }
+    .facebook{
+        margin-top: 10px;
+        width: 3%;
+    }
+    .redes{
+        padding-left: 20px;
+        color:honeydew
+    }
+    .titulo{
+        animation-name: titulo;
+        animation-iteration-count: 4;
+        animation-duration: 5s;
+        
+    }
+    @keyframes titulo{
+        from /*inicio*/{
+            transform: translate(-400px);
+            opacity: 0;
+        
+        }
+        to /*fin*/{
+             
+            transform: translate(0);
+            overflow: 1;
+        }
+        
+    }
+    
